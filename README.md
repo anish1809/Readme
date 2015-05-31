@@ -1,2 +1,1 @@
-# Readme
-MyDocs
+hello this is what i am doing
