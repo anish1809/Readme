@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            height: 435px;
+        }
+        .style2
+        {
+            height: 268px;
+        }
+        .style3
+        {
+            height: 424px;
+        }
+    </style>
+</head>
+<body style="background-color:Black">
+    <form id="form1" runat="server">
+    <div><asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+       
+            <img alt="" src="image/header.jpg" 
+                style="width: 1022px; height: 173px; margin-top: 0px;" />
+                
+        </asp:ContentPlaceHolder></div>
+        <asp:ContentPlaceHolder ID="federation" runat="server"></asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder ID="Default" runat="server"></asp:ContentPlaceHolder>
+         <asp:ContentPlaceHolder ID="federation1" runat="server"></asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder ID="twoparty" runat="server"></asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder ID="login" runat="server"></asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder ID="registration" runat="server"></asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder ID="getcustomerid" runat="server"></asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder ID="supplieridrequest" runat="server"></asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder ID="sendsupplierid" runat="server"></asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder ID="supplytocustomer" runat="server"></asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder ID="producer" runat="server"></asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder ID="sendtoproducer" runat="server"></asp:ContentPlaceHolder>       
+        <asp:ContentPlaceHolder ID="customer" runat="server"></asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder ID="twopartylogin" runat="server"></asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder ID="twopartycustomer" runat="server"></asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder ID="twopartyproducer" runat="server"></asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder ID="twopartysupplier" runat="server"></asp:ContentPlaceHolder>
+
+    </form>
+</body>
+</html>
